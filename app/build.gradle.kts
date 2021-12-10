@@ -48,6 +48,8 @@ dependencies {
 
     implementation(Libs.AndroidX.coreKtx)
     implementation(Libs.AndroidX.appCompat)
+    implementation(Libs.Emoji.bundled)
+    implementation(Libs.Emoji.init)
     implementation(Libs.Koin.android)
     implementation(Libs.AndroidX.material)
     implementation(Libs.Navigation.fragmentKtx)
