@@ -23,5 +23,8 @@ fun PluginDependenciesSpec.hilt(): PluginDependencySpec =
 fun PluginDependenciesSpec.kotlinAndroid(): PluginDependencySpec =
     kotlin("android")
 
+fun PluginDependenciesSpec.kotlinxSerialization(): PluginDependencySpec =
+    id("kotlinx-serialization")
+
 fun PluginDependenciesSpec.navigationSafeArgs(): PluginDependencySpec =
     id("androidx.navigation.safeargs")

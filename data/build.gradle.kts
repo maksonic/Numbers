@@ -1,6 +1,7 @@
 plugins {
     androidLibrary()
     kotlinAndroid()
+    kotlinxSerialization()
 }
 
 android {
@@ -33,11 +34,12 @@ android {
 }
 
 dependencies {
-    implementation(Libs.AndroidX.coreKtx)
     implementation(Libs.Koin.android)
-    implementation(Libs.AndroidX.appCompat)
+    implementation(Libs.OkHttp.interceptor)
     implementation(Libs.Jetbrains.coroutinesAndroid)
-    implementation(Libs.AndroidX.material)
+    implementation(Libs.Jetbrains.serialization)
+    implementation(Libs.Retrofit.retofit)
+    implementation(Libs.Retrofit.converter)
 
     testImplementation(Libs.TestLibraries.junit)
     androidTestImplementation(Libs.AndroidTestLibraries.junitExt)
