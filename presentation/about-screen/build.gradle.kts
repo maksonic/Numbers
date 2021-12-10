@@ -38,7 +38,6 @@ android {
 
 dependencies {
     implementation(project(Module.core))
-    implementation(project(Module.Navigation.api))
 
     implementation(Libs.AndroidX.coreKtx)
     implementation(Libs.Koin.android)

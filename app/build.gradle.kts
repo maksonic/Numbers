@@ -45,8 +45,6 @@ dependencies {
     implementation(project(Module.core))
     implementation(project(Module.Screen.main))
     implementation(project(Module.Screen.about))
-    implementation(project(Module.Navigation.api))
-    implementation(project(Module.Navigation.impl))
 
     implementation(Libs.AndroidX.coreKtx)
     implementation(Libs.AndroidX.appCompat)

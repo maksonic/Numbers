@@ -12,5 +12,4 @@ include(":data")
 include(":domain")
 include(":presentation:main-screen")
 include(":presentation:about-screen")
-include(":navigation:api")
-include(":navigation:impl")
+
