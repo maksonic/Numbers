@@ -30,9 +30,15 @@ android {
     kotlinOptions {
         jvmTarget = ProjectConfig.jvmTarget
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
+    implementation(project(Module.core))
+    implementation(project(Module.domain))
     implementation(project(Module.Navigation.api))
 
     implementation(Libs.AndroidX.coreKtx)
