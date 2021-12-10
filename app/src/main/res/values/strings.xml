@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Numbers</string>
+    <string name="scr_about_title">О приложении</string>
 </resources>
