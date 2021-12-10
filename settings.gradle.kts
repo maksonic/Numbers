@@ -9,3 +9,4 @@ rootProject.name = "Numbers"
 include (":app")
 include(":core")
 include(":data")
+include(":domain")
