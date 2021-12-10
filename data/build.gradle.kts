@@ -34,6 +34,9 @@ android {
 }
 
 dependencies {
+    implementation(project(Module.domain))
+    implementation(project(Module.core))
+
     implementation(Libs.Koin.android)
     implementation(Libs.OkHttp.interceptor)
     implementation(Libs.Jetbrains.coroutinesAndroid)
