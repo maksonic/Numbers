@@ -8,6 +8,7 @@ buildscript {
         classpath(BuildPlugin.KotlinGradle.init)
         classpath(BuildPlugin.BuildToolsGradle.init)
         classpath(BuildPlugin.KotlinxSerialization.init)
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0")
     }
 }
 
