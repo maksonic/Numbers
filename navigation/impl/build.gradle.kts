@@ -33,6 +33,12 @@ android {
 }
 
 dependencies {
+    implementation(project(Module.Navigation.api))
+    implementation(project(Module.Screen.main))
+    implementation(project(Module.Screen.about))
+
+    implementation(Libs.Navigation.fragmentKtx)
+    implementation(Libs.Navigation.uiKtx)
 
     testImplementation(Libs.TestLibraries.junit)
     androidTestImplementation(Libs.AndroidTestLibraries.junitExt)

@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation(Libs.AndroidX.appCompat)
+    implementation(Libs.Navigation.fragmentKtx)
 
     testImplementation(Libs.TestLibraries.junit)
     androidTestImplementation(Libs.AndroidTestLibraries.junitExt)
