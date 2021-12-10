@@ -1,5 +1,6 @@
 package com.maksonic.numbers.core
 
+import com.maksonic.numbers.core.utils.KeyboardBehavior
 import org.koin.dsl.module
 
 /**
@@ -7,4 +8,5 @@ import org.koin.dsl.module
  */
 val coreModule  = module {
 
+    factory<KeyboardBehavior> { KeyboardBehavior.Base() }
 }
