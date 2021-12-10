@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="scr_main_title">Факты о числах</string>
+    <string name="txt_display_title">Введи число и узнай о нём интересный факт.</string>
+    <string name="scr_about_title">О приложении</string>
+    <string name="error_empty_input">Кто-то забыл ввести число? 🧐</string>
+    <string name="error_input_not_number">Это не похоже на число. 👺</string>
 </resources>

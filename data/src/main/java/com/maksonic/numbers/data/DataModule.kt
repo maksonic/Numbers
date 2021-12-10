@@ -1,6 +1,5 @@
 package com.maksonic.numbers.data
 
-import org.koin.dsl.module
 import com.maksonic.numbers.domain.Repository
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

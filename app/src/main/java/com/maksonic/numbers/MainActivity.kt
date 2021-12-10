@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.emoji2.bundled.BundledEmojiCompatConfig
+import androidx.emoji2.text.EmojiCompat
 import androidx.navigation.findNavController
 import com.maksonic.numbers.databinding.ActivityMainBinding
 
@@ -34,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
     private fun navigateBackToolbar() {
         binding.toolBar.setNavigationOnClickListener { onBackPressed() }
     }

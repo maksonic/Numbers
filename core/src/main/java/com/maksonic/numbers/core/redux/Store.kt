@@ -13,14 +13,14 @@ import kotlinx.coroutines.flow.receiveAsFlow
 /**
  * @Author: maksonic on 10.12.2021
  */
-interface Store<S : State, A : Action, E : Effect?> {
+interface Store<S : State, A : Action, E : Effect> {
     val state: StateFlow<S>
     val sideEffect: Flow<E>
 
     suspend fun dispatch(action: A)
     suspend fun setSideEffect(effectBuilder: () -> E)
 
-    open class BaseStore<S: State, A: Action, E: Effect?>(
+    open class BaseStore<S: State, A: Action, E: Effect>(
         initialState: S,
         private val reducer: Reducer<S, A>,
         private val middlewares: List<Middleware<S, A, E>> = emptyList()

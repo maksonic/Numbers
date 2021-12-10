@@ -17,9 +17,20 @@ object Libs {
 
     }
 
+    object Emoji {
+        private const val version = "1.0.0"
+        const val bundled = "androidx.emoji2:emoji2-bundled:$version"
+        const val init = "androidx.emoji2:emoji2:$version"
+    }
+
     object Koin {
         private const val version = "3.1.4"
         const val android = "io.insert-koin:koin-android:$version"
+    }
+    object Lifecycle {
+        private const val version = "2.4.0"
+        const val runtimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:$version"
+        const val viewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$version"
     }
 
     object OkHttp {

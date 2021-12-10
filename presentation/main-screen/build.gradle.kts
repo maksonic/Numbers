@@ -41,8 +41,11 @@ dependencies {
     implementation(project(Module.domain))
 
     implementation(Libs.AndroidX.coreKtx)
+    implementation(Libs.Emoji.init)
     implementation(Libs.Koin.android)
     implementation(Libs.AndroidX.appCompat)
+    implementation(Libs.Lifecycle.runtimeKtx)
+    implementation(Libs.Lifecycle.viewModelKtx)
     implementation(Libs.Jetbrains.coroutinesAndroid)
     implementation(Libs.AndroidX.material)
 
