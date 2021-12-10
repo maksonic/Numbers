@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation(project(Module.core))
+
     implementation(Libs.AndroidX.coreKtx)
     implementation(Libs.Koin.android)
     implementation(Libs.AndroidX.appCompat)
