@@ -4,4 +4,4 @@
 * Модульный проект. 🔠
 * Чистая архитектура. 🙈
 * Flow, StateFlow ♨️
-* Koin ![This is an image](assets/images/ic_koin.svg)
+* Koin ![This is an image](Numbers/assets/images/ic_koin.svg)
